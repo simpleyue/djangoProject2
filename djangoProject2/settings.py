@@ -86,7 +86,7 @@ DATABASES = {
         "HOST":"localhost",  #IP地址
         "PORT":3306, #端口号
         "USER":"root", #用户名
-        "PASSWORD":"chb_mysql",  #密码
+        "PASSWORD":"XXXXXX",  #密码
     }
 }
 
@@ -95,11 +95,11 @@ DATABASES = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://10.20.52.200:19416",
+        "LOCATION": "redis://10.XX.XX.200:XXXX",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
             "CONNECTION_POOL_KWARGS": {"max_connections": 100, 'decode_responses': True},
-            "PASSWORD": "uoPfydrYRn7tuJq_",
+            "PASSWORD": "XXXXXXXX",
         },
         # 前缀
         # "KEY_PREFIX": "test"
