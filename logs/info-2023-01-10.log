@@ -1,0 +1,4 @@
+[2023-01-10 09:39:40,053] [views.py:57] [views:get] [INFO]- lllllll: {"code": 200, "data": {"id": 9, "first_name": "f", "last_name": "l12345"}, "msg": "success"}
+[2023-01-10 09:40:18,500] [views.py:57] [views:get] [INFO]- lllllll: {"code": 200, "data": {"id": 9, "first_name": "f", "last_name": "l12345"}, "msg": "success"}
+[2023-01-10 09:42:02,386] [views.py:57] [views:get] [INFO]- lllllll: {"code": 200, "data": {"id": 9, "first_name": "f", "last_name": "l12345"}, "msg": "success"}
+[2023-01-10 10:07:31,975] [views.py:60] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 9), ('first_name', 'f'), ('last_name', 'l12345')]), 'msg': 'success'}

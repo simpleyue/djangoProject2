@@ -1,0 +1,5 @@
+[2023-01-11 07:45:20,806] [views.py:63] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': None, 'msg': 'success'}
+[2023-01-11 07:46:31,151] [views.py:63] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': 'shide', 'msg': 'success'}
+[2023-01-11 07:50:03,923] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-01-11 07:50:57,939] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-01-11 07:51:40,252] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}

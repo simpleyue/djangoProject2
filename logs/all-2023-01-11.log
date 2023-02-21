@@ -1,0 +1,133 @@
+[2023-01-11 07:02:39,849] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:05:19,392] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:05:19,900] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:06:24,992] [basehttp.py:182] [basehttp:log_message] [INFO]- "DELETE /st/recordlist?first_name=f22 HTTP/1.1" 200 40
+[2023-01-11 07:06:49,931] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:06:50,528] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:07:10,222] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:07:10,592] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:07:11,230] [basehttp.py:182] [basehttp:log_message] [INFO]- "DELETE /st/recordlist?first_name=f222323 HTTP/1.1" 200 40
+[2023-01-11 07:07:40,779] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:07:41,195] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:07:42,486] [basehttp.py:182] [basehttp:log_message] [INFO]- "DELETE /st/recordlist?first_name=f222323 HTTP/1.1" 200 42
+[2023-01-11 07:07:48,170] [basehttp.py:182] [basehttp:log_message] [INFO]- "DELETE /st/recordlist?first_name=f HTTP/1.1" 200 57
+[2023-01-11 07:08:43,398] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:08:43,777] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:14:57,111] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:14:57,859] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:45:17,370] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:45:18,018] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:45:20,806] [views.py:63] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': None, 'msg': 'success'}
+[2023-01-11 07:45:20,809] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 40
+[2023-01-11 07:45:35,604] [log.py:234] [log:log_response] [ERROR]- Internal Server Error: /st/recordlist
+Traceback (most recent call last):
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py", line 61, in get
+    self.res['data'] = g.get_value('gh')
+TypeError: get_value() missing 1 required positional argument: 'value'
+[2023-01-11 07:45:35,611] [basehttp.py:182] [basehttp:log_message] [ERROR]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 500 91777
+[2023-01-11 07:45:36,938] [log.py:234] [log:log_response] [ERROR]- Internal Server Error: /st/recordlist
+Traceback (most recent call last):
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py", line 61, in get
+    self.res['data'] = g.get_value('gh')
+TypeError: get_value() missing 1 required positional argument: 'value'
+[2023-01-11 07:45:36,938] [basehttp.py:182] [basehttp:log_message] [ERROR]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 500 91777
+[2023-01-11 07:45:37,708] [log.py:234] [log:log_response] [ERROR]- Internal Server Error: /st/recordlist
+Traceback (most recent call last):
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py", line 61, in get
+    self.res['data'] = g.get_value('gh')
+TypeError: get_value() missing 1 required positional argument: 'value'
+[2023-01-11 07:45:37,709] [basehttp.py:182] [basehttp:log_message] [ERROR]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 500 91777
+[2023-01-11 07:46:29,492] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/utils/g.py changed, reloading.
+[2023-01-11 07:46:30,072] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:46:31,151] [views.py:63] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': 'shide', 'msg': 'success'}
+[2023-01-11 07:46:31,153] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 43
+[2023-01-11 07:48:01,068] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/utils/g.py changed, reloading.
+[2023-01-11 07:48:01,685] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:50:02,605] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:50:03,292] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:50:03,923] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-01-11 07:50:03,924] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 80
+[2023-01-11 07:50:57,217] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-11 07:50:57,609] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:50:57,939] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-01-11 07:50:57,940] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 80
+[2023-01-11 07:51:12,307] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/apps.py changed, reloading.
+[2023-01-11 07:51:12,644] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:51:15,488] [log.py:234] [log:log_response] [ERROR]- Internal Server Error: /st/recordlist
+Traceback (most recent call last):
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py", line 57, in get
+    g.set_value('gh', 'shide')
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/utils/g.py", line 12, in set_value
+    _global_dict[key] = value
+NameError: name '_global_dict' is not defined
+[2023-01-11 07:51:15,497] [basehttp.py:182] [basehttp:log_message] [ERROR]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 500 95141
+[2023-01-11 07:51:37,672] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/apps.py changed, reloading.
+[2023-01-11 07:51:38,064] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 07:51:40,252] [views.py:64] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-01-11 07:51:40,253] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 80
+[2023-01-11 07:52:09,342] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/apps.py changed, reloading.
+[2023-01-11 07:52:10,039] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

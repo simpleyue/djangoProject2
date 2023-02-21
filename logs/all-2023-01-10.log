@@ -1,0 +1,40 @@
+[2023-01-10 09:37:52,098] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:38:12,878] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:38:13,077] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:38:13,583] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:39:16,529] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:39:39,436] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:39:39,808] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:39:40,054] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:40:02,765] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:40:03,202] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:40:03,918] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:40:16,857] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:40:17,242] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:40:18,501] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:42:01,598] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:42:02,144] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:42:02,387] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 09:45:11,910] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:45:12,461] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:49:00,249] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:49:00,942] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 09:54:00,960] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/djangoProject2/settings.py changed, reloading.
+[2023-01-10 09:54:01,542] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:00:23,851] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:00:24,518] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:02:18,113] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:02:18,490] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:02:32,144] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:02:32,554] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:04:39,534] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:04:40,013] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:04:41,089] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 10:05:40,052] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:05:40,423] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:05:40,680] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-10 10:07:30,908] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-01-10 10:07:31,350] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-10 10:07:31,975] [views.py:60] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 9), ('first_name', 'f'), ('last_name', 'l12345')]), 'msg': 'success'}
+[2023-01-10 10:07:31,980] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f HTTP/1.1" 200 82
+[2023-01-11 07:02:38,915] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.

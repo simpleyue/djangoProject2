@@ -1,0 +1,54 @@
+[2023-02-06 07:26:52,646] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 07:28:04,178] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 07:29:45,697] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 07:34:23,859] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:16:05,283] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:16:11,695] [log.py:234] [log:log_response] [ERROR]- Internal Server Error: /st/recordlist
+Traceback (most recent call last):
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py", line 49, in get
+    conn.set('chenhaibing2','233333',timeout=10)
+TypeError: set() got an unexpected keyword argument 'timeout'
+[2023-02-06 08:16:11,701] [basehttp.py:182] [basehttp:log_message] [ERROR]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 500 92090
+[2023-02-06 08:17:21,581] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-02-06 08:17:21,949] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:17:22,276] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:17:27,018] [views.py:69] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success'}
+[2023-02-06 08:17:27,019] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 80
+[2023-02-06 08:18:39,416] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-02-06 08:18:39,661] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:18:39,752] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:18:42,078] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': '233333'}
+[2023-02-06 08:18:42,079] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 97
+[2023-02-06 08:19:06,617] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:19:25,447] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- /Users/chenhaibing/code/pythonProject/pythonProject/djangoProject2/demo/views.py changed, reloading.
+[2023-02-06 08:19:26,013] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 08:19:29,718] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': '233333'}
+[2023-02-06 08:19:29,719] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 97
+[2023-02-06 08:19:50,531] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': None}
+[2023-02-06 08:19:50,532] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 93
+[2023-02-06 08:19:51,839] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': None}
+[2023-02-06 08:19:51,840] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 93
+[2023-02-06 09:39:27,858] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 09:39:34,699] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': '233333'}
+[2023-02-06 09:39:34,700] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 97
+[2023-02-06 09:45:26,410] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': None}
+[2023-02-06 09:45:26,414] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 93
+[2023-02-06 09:45:50,827] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-02-06 09:45:58,659] [views.py:70] [views:get] [INFO]- 查询结果是: {'code': 200, 'data': OrderedDict([('id', 7), ('first_name', 'f223'), ('last_name', 'l')]), 'msg': 'success', 'redis': '233333'}
+[2023-02-06 09:45:58,660] [basehttp.py:182] [basehttp:log_message] [INFO]- "GET /st/recordlist?first_name=f223 HTTP/1.1" 200 97
